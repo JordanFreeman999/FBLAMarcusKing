@@ -1,0 +1,76 @@
+@font-face {
+	font-family:'ring';
+	src: url(../fonts/ring.eot'); 
+	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
+}
+body {
+	background-image:url(../images/cliff.jpg) ;
+
+}
+
+.frontCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: ring, Geneva, sans-serif;
+	font-size: 120px;
+	height: 120px;
+	padding-top: 80px;
+}
+.frontCard > .mk {
+	display: flex;
+	margin-bottom: 20px;
+	height: 150px;
+	border-bottom: 4px solid black;
+	border-radius: 7px;
+}
+.frontCard > .mk > .k {
+	width: 120px;
+}
+.frontCard > .mk > .m {
+	display: flex;
+	align-items: end;
+	text-align: right;
+	margin-left: 30px;
+}
+.frontName {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-family: ring, Geneva, sans-serif;
+}
+.title > .frontExplore {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 10%;
+	padding: 0% 15%;
+}
+.title > .frontExplore > .linkPage a {
+	width: 100px;
+}
+.title > .frontExplore > .linkPage a {
+	text-decoration: none;
+	font-family: 'Cairo', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+}
+.title > .frontExplore > .linkPage a:hover {
+}
+.Regalia {
+	background-color: white;
+	margin-top: 700px;
+	display: flex;
+	align-items: space-between;
+	/* remove this part when necessary*/
+	height: 700px;
+}
+.Regalia > .innerDescription {
+	height: 100%;
+	width: 100%;
+}
+.Regalia > .selfImage {
+	height: 100%;
+	width: 100%;
+}
