@@ -1,0 +1,8 @@
+@font-face {
+	font-family:'ring';
+	src: url(../fonts/ring.eot'); 
+	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
+
+body {
+	background-image:url(../images/Hawaii.jpg);
+}
