@@ -1,6 +1,10 @@
 @font-face {
 	font-family:'ring';
+<<<<<<< Updated upstream
 	src: url('../fonts/ring.eot');
+=======
+	src: url(../fonts/ring.eot); 
+>>>>>>> Stashed changes
 	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
 }
 body {
@@ -8,6 +12,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: 100px;
+	margin: 0;
 }
 .title {
 	width: auto;
@@ -77,19 +82,32 @@ body {
 	border-radius: 5px;
 	font-weight: bold;
 }
-.Regalia {
-	background-color: white;
-	margin-top: 700px;
+.reviews {
+	height: auto;
+	width: auto;
 	display: flex;
-	align-items: space-between;
-	/* remove this part when necessary*/
-	height: 700px;
+	margin-top: 600px;
+	flex-direction: column;
 }
-.Regalia > .innerDescription {
-	height: 100%;
-	width: 100%;
+.reviews > .parallex {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/streets.png);
+	z-index: 1;
 }
-.Regalia > .selfImage {
-	height: 100%;
+.reviews > .parallex > .quote {
+	height: 200px;
+	background-color: white;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reviews > .parallex > .image{
+	height: 400px;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
