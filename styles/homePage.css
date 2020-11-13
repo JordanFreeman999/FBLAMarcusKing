@@ -1,10 +1,6 @@
 @font-face {
 	font-family:'ring';
-<<<<<<< Updated upstream
-	src: url('../fonts/ring.eot');
-=======
 	src: url(../fonts/ring.eot); 
->>>>>>> Stashed changes
 	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
 }
 body {
@@ -89,21 +85,28 @@ body {
 	margin-top: 600px;
 	flex-direction: column;
 }
-.reviews > .parallex {
+.reviews > .parallex1 {
+	background-image:url(../images/streets.png) ;
 	display: flex;
 	flex-direction: column;
-	background-image: url(images/streets.png);
-	z-index: 1;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.reviews > .parallex > .quote {
+.reviews > .parallex1 > .image > .quote {
+	color: white;
 	height: 200px;
-	background-color: white;
-	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
 }
-.reviews > .parallex > .image{
+.reviews > .parallex1:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex1 > .image{
 	height: 400px;
 	width: 100%;
 	display: flex;
