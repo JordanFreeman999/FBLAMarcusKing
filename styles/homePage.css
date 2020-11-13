@@ -5,9 +5,13 @@
 }
 body {
 	background-image:url(../images/cliff.jpg) ;
-
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 100px;
 }
-
+.title {
+	width: auto;
+}
 .frontCard {
 	display: flex;
 	justify-content: center;
@@ -16,6 +20,7 @@ body {
 	font-size: 120px;
 	height: 120px;
 	padding-top: 80px;
+	width: auto;
 }
 .frontCard > .mk {
 	display: flex;
@@ -23,6 +28,7 @@ body {
 	height: 150px;
 	border-bottom: 4px solid black;
 	border-radius: 7px;
+	width: auto;
 }
 .frontCard > .mk > .k {
 	width: 120px;
@@ -44,10 +50,15 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	margin: 0px 10%;
-	padding: 0% 15%;
+	padding: 0% 10%;
 }
-.title > .frontExplore > .linkPage a {
-	width: 100px;
+.title > .frontExplore > .linkPage {
+	width: 140px;
+	height: 34px;
+	display: flex;
+	padding-left: 4px;
+	padding-right: 4px;
+	justify-content: center;
 }
 .title > .frontExplore > .linkPage a {
 	text-decoration: none;
@@ -55,8 +66,16 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	color: black;
+	border-radius: 0px;
+	transition: 0.3s;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 .title > .frontExplore > .linkPage a:hover {
+	letter-spacing: 1px;
+	border-bottom: 4px solid black;
+	border-radius: 5px;
+	font-weight: bold;
 }
 .Regalia {
 	background-color: white;
