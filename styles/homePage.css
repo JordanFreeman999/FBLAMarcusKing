@@ -78,6 +78,19 @@ body {
 	border-radius: 5px;
 	font-weight: bold;
 }
+.eternalParagraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	height: 400px;
+	width: auto;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 0px 300px;
+}
 .reviews {
 	height: auto;
 	width: auto;
@@ -103,7 +116,7 @@ body {
 	transition: 0.2s;
 	opacity: 0;
 	flex-direction: column;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .reviews > .parallex1 > .image > .quote > .cite {
 	font-weight: 200;
@@ -121,16 +134,17 @@ body {
 
 }
 .reviews > .parallex2 {
-	background-image:url(../images/streets.png) ;
+	background-image:url(../images/bridge.png) ;
 	display: flex;
 	flex-direction: column;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 .reviews > .parallex2 > .image > .quote {
-	color: white;
+	color: black;
 	height: 200px;
 	display: flex;
 	justify-content: center;
@@ -138,10 +152,10 @@ body {
 	transition: 0.2s;
 	opacity: 0;
 	flex-direction: column;
-	margin-top: 100px;
+	margin-bottom: 20px;
 }
 .reviews > .parallex2 > .image > .quote > .cite {
-	font-weight: 200;
+	font-weight: 600;
 	font-style: italic;
 }
 .reviews > .parallex2:hover > .image > .quote {
@@ -153,5 +167,60 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.reviews > .parallex2 > image:hover {
+	background-color: gray;
+	opacity: 0.5;
+}
+.reviews > .parallex3 {
+	background-image:url(../images/skyscraper.png) ;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
+}
+.reviews > .parallex3 > .image > .quote {
+	color: black;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.reviews > .parallex3 > .image > .quote > .cite {
+	font-weight: 600;
+	font-style: italic;
+}
+.reviews > .parallex3:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex3 > .image{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.reviews > .parallex3 > image:hover {
+	background-color: gray;
+	opacity: 0.5;
+}
+.image {
+	transition: 0.5 all;
+	background-color: rgba(20, 20, 20, 0);	
+}
+ .parallex1:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
+}
+.parallex2:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
+}
+.parallex3:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
 }
