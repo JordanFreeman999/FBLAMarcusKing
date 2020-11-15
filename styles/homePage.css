@@ -102,11 +102,52 @@ body {
 	align-items: center;
 	transition: 0.2s;
 	opacity: 0;
+	flex-direction: column;
+	margin-top: 100px;
+}
+.reviews > .parallex1 > .image > .quote > .cite {
+	font-weight: 200;
+	font-style: italic;
 }
 .reviews > .parallex1:hover > .image > .quote {
 	opacity: 0.9;
 }
 .reviews > .parallex1 > .image{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.reviews > .parallex2 {
+	background-image:url(../images/streets.png) ;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.reviews > .parallex2 > .image > .quote {
+	color: white;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
+	flex-direction: column;
+	margin-top: 100px;
+}
+.reviews > .parallex2 > .image > .quote > .cite {
+	font-weight: 200;
+	font-style: italic;
+}
+.reviews > .parallex2:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex2 > .image{
 	height: 400px;
 	width: 100%;
 	display: flex;
