@@ -89,8 +89,9 @@ body {
 	background-color: white;
 	color: black;
 	text-align: center;
-	padding: 0px 300px;
+	padding: 0px, 300px;
 }
+
 .reviews {
 	height: auto;
 	width: auto;
