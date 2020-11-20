@@ -54,8 +54,13 @@
     -webkit-transform: translateY(0%);
   }
 }
-
 .line1, img{
+  width: 31%;
+  padding: 1%;
+  padding-top: 300px;
+  display: inline;
+}
+.line2, img{
   width: 31%;
   padding: 1%;
   visibility: hidden;
@@ -80,9 +85,10 @@
     </div>
   </div>
 
-<divclass="line1">
-  <img id="myImg1" src="../images/yellowstone photoshoot.jpeg" alt="A picture of a yellowstone hot pot" data-timeout="400">
-  <img id="myImg2" src="../images/Hawaii.jpg" alt="kauai from above" data-timeout="800">
+<div class="line1">
+  <img src="../images/yellowstone photoshoot.jpeg" alt="A picture of a yellowstone hot pot">
+  <img src="../images/Hawaii.jpg" alt="kauai from above">
+  <img src="" alt="">
 </div>
 
  <script>
@@ -92,9 +98,23 @@
   function myFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
       while(x < 3)  {
+        
         document.getElementById("myImg"+x).className = "slideUp";
+        
         x++;
+
       }
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        while(x < 3)  {
+        
+        document.getElementById("myImg"+x).className = "slideUp";
+        
+        x++;
+
+        }
+
+      }
+
     }
   }
 
