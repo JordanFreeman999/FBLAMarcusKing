@@ -90,6 +90,7 @@ body {
 	color: black;
 	text-align: center;
 	padding: 0px, 300px;
+	box-shadow: inset 0px -26px 79px -8px rgb(0, 0, 0, 0.58);
 }
 
 .reviews {
