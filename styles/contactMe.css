@@ -1,12 +1,12 @@
-﻿body
-{
-}
+﻿
 .contactExplore {
 	margin-top: 500px;
-	margin-right: 1600px;
 	display: flex;
 	justify-content: center;
 	font-family: Mozilla, sans-serif;
+	width: 90%;
+	background-color: white;
+	margin-left: 5%;
 }
 
 .contactExplore > .instapic {
