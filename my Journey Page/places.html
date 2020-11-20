@@ -112,26 +112,6 @@
 	z-index: -1;
 	opacity: 100%;
 }
-
-.container2:hover {
-    transform: translateY(100px);
-	transition: all 0.5s;
-}
-.container2:hover > .overlay{
-	transform: translateY(-100px);
-	transition: all 0.5s;
-}
-.container2:hover > img{
-	opacity: 0;
-	transition: all 0.5s;
-}
-
-.gallery > .container2 > img {
-    margin: 1%;
-    position: absolute;
-    width: 96%;
-}
-
  </style>
 
   <title>My Journey</title>
@@ -170,20 +150,20 @@
     </div>
 
     <div class="gallery">
-      <div class="container2">
-        <img src="../images/yellowstone photoshoot.jpeg">
+      <div class="container">
+        <img id="myImg1" src="../images/yellowstone photoshoot.jpeg">
         <div class="overlay">
           <div class="text">Lorem ipsum dolor sit amet.</div>
         </div>
       </div>
-      <div class="container2">
-        <img src="../images/england.jpg">
+      <div class="container">
+        <img id="myImg1" src="../images/england.jpg">
         <div class="overlay">
           <div class="text">Lorem ipsum dolor sit amet.</div>
         </div>
       </div>
-      <div class="container2">
-        <img src="../images/Hawaii.jpg">
+      <div class="container">
+        <img id="myImg1" src="../images/Hawaii.jpg">
         <div class="overlay">
           <div class="text">Lorem ipsum dolor sit amet.</div>
         </div>
