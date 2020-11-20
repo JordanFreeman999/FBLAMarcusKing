@@ -97,6 +97,40 @@
     align-items: center;
     font-size: 24px;
 }
+.container {
+	position: relative;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	transition: all 0.5s;
+}
+.container > .overlay {
+    position: absolute;
+    height: 60%;
+	width: 96%;
+	z-index: -1;
+	opacity: 100%;
+}
+
+.container2:hover {
+    transform: translateY(100px);
+	transition: all 0.5s;
+}
+.container2:hover > .overlay{
+	transform: translateY(-100px);
+	transition: all 0.5s;
+}
+.container2:hover > img{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.gallery > .container2 > img {
+    margin: 1%;
+    position: absolute;
+    width: 96%;
+}
 
  </style>
 
@@ -135,13 +169,26 @@
       </div>
     </div>
 
-  <div class="line2">
-
-    <img id="myImg" src="../images/" alt="">
-    <img id="myImg" src="../images/" alt="">
-    <img id="myImg" src="../images/" alt="">
-
-  </div>
+    <div class="gallery">
+      <div class="container2">
+        <img src="../images/yellowstone photoshoot.jpeg">
+        <div class="overlay">
+          <div class="text">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+      <div class="container2">
+        <img src="../images/england.jpg">
+        <div class="overlay">
+          <div class="text">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+      <div class="container2">
+        <img src="../images/Hawaii.jpg">
+        <div class="overlay">
+          <div class="text">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
 </div>
 
  <script>
