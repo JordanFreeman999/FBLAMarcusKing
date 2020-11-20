@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700&display=swap" rel="stylesheet">
 
   <style>
-
+    body{
+      height: 3000px;
+    }
     .frontName a{
        color: black;
        text-decoration: none;
@@ -22,6 +24,44 @@
 	    border-radius: 5px;
       font-weight: bold;
     }
+
+    .slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+.line1, img{
+  width: 31%;
+  padding: 1%;
+  visibility: hidden;
+  padding-top: 300px;
+  display: inline;
+}
 
  </style>
 
@@ -38,7 +78,27 @@
        <div class ="linkPage"><a href="info.html">Place info</a></div>
        <div class ="linkPage"><a href="../contactMe.html">Contact Me</a></div>
     </div>
- </div>
+  </div>
+
+<divclass="line1">
+  <img id="myImg1" src="../images/yellowstone photoshoot.jpeg" alt="A picture of a yellowstone hot pot" data-timeout="400">
+  <img id="myImg2" src="../images/Hawaii.jpg" alt="kauai from above" data-timeout="800">
+</div>
+
+ <script>
+  
+  window.onscroll = function() {myFunction()};
+  var x = 1
+  function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      while(x < 3)  {
+        document.getElementById("myImg"+x).className = "slideUp";
+        x++;
+      }
+    }
+  }
+
+  </script>
 
 </body>
 </html>

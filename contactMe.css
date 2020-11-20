@@ -1,8 +1,19 @@
-@font-face {
-	font-family:'ring';
-	src: url(../fonts/ring.eot'); 
-	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
-
-body {
-	background-image:url(../images/Hawaii.jpg);
+﻿body
+{
 }
+.contactExplore {
+	margin-top: 500px;
+	margin-right: 1600px;
+	display: flex;
+	justify-content: center;
+	font-family: Mozilla, sans-serif;
+}
+
+.contactExplore > .instapic {
+	background-image:url(../images/insta.jpg);
+	width: 225px;
+	height: 225px;
+	justify-content: left;
+}
+
+.contactExplore > .instapic a:hover
