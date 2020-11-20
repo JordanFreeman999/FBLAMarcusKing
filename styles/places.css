@@ -39,3 +39,15 @@
     justify-content: center;
     text-align: center;
 }
+.location > .top > .imageTwo {
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/whitecliffs.jpg);
+    background-size: cover;
+}
+.location > .top > .imageThree {
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/pyramids.jpg);
+    background-size: cover;
+}
