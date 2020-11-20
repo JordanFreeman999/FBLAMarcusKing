@@ -6,8 +6,6 @@
 	flex-direction: column;
 	color: white;
 	background-color: #222222;
-	position: fixed;
-	bottom: 0px;
 }
 
 .socials > .links {
