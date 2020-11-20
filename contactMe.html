@@ -3,6 +3,8 @@
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/contactMe.css">
   <link rel="stylesheet" href="styles/homePage.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/buttons.css">
   <title>Contact Me</title>
 
   <style>
@@ -34,8 +36,24 @@
       </div>
    </div>
    <div class="contactExplore">
-      <div class="instapic"><a href="instagram.com"></a></div>
-
+      <div class="form">
+         <div class="form-group">
+              <input type="text" id="fullName" placeholder="Your name">
+              <label for="fullName">Your name</label>
+          </div>
+         <div class="form-group">
+          <input type="email" id=Email" placeholder="Your Email">
+          <label for="Email">Email</label>
+          </div>
+          <div class="form-group">
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+              <label for="message">Message</label>
+          </div>
+          <div class="spacer10"></div>
+          <div class="centered-btn-wrapper">
+              <button type="submit" class="btn">Send</button>
+          </div>
+     </div>
 </body>
 
 </html>
