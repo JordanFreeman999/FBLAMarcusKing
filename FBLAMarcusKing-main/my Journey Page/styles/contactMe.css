@@ -1,0 +1,21 @@
+﻿
+.contactExplore {
+	margin-top: 500px;
+	display: flex;
+	justify-content: center;
+	font-family: Mozilla, sans-serif;
+	width: 90%;
+	background-color: white;
+	margin-left: 5%;
+	margin-bottom: 70px;
+	padding-bottom: 40px;
+}
+
+.contactExplore > .instapic {
+	background-image:url(../images/insta.jpg);
+	width: 225px;
+	height: 225px;
+	justify-content: left;
+}
+
+.contactExplore > .instapic a:hover

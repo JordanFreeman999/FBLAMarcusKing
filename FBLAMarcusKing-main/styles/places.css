@@ -1,0 +1,53 @@
+.title {
+    margin-bottom: 400px;
+}
+
+.location {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.bottom iframe {
+    height: 100%;
+    width: 100%;
+}
+.location > .top > .image {
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/surfboards.jpg);
+    background-size: cover;
+}
+.top > .text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.location > .top > .imageTwo {
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/whitecliffs.jpg);
+    background-size: cover;
+}
+.location > .top > .imageThree {
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/pyramids.jpg);
+    background-size: cover;
+}
