@@ -1,0 +1,333 @@
+@font-face {
+	font-family:'ring';
+	src: url(../fonts/ring.eot); 
+	src: local('Bendable'), url('../fonts/ring.ttf') format('truetype') ;
+}
+body {
+	background-image:url(../images/cliff.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 100px;
+	margin: 0;
+}
+body {
+	font-family: 'Cairo', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+}
+.title {
+	width: auto;
+}
+.frontCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: ring, Geneva, sans-serif;
+	font-size: 120px;
+	height: 120px;
+	padding-top: 80px;
+	width: auto;
+}
+.frontCard > .mk {
+	display: flex;
+	margin-bottom: 20px;
+	height: 150px;
+	border-bottom: 4px solid black;
+	border-radius: 7px;
+	width: auto;
+}
+.frontCard > .mk > .k {
+	width: 120px;
+}
+.frontCard > .mk > .m {
+	display: flex;
+	align-items: end;
+	text-align: right;
+	margin-left: 30px;
+}
+.frontName {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-family: ring, Geneva, sans-serif;
+}
+.title > .frontExplore {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 10%;
+	padding: 0% 10%;
+}
+.title > .frontExplore > .linkPage {
+	width: 200px;
+	height: 34px;
+	display: flex;
+	padding-left: 4px;
+	padding-right: 4px;
+	justify-content: center;
+}
+.title > .frontExplore > .linkPage a {
+	text-decoration: none;
+	font-family: 'Cairo', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	border-radius: 0px;
+	transition: 0.3s;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.title > .frontExplore > .linkPage a:hover {
+	letter-spacing: 1px;
+	border-bottom: 4px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.eternalParagraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	height: 400px;
+	width: auto;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 0px, 300px;
+	box-shadow: inset 0px -26px 79px -8px rgb(0, 0, 0, 0.58);
+}
+
+.reviews {
+	height: auto;
+	width: auto;
+	display: flex;
+	margin-top: 600px;
+	flex-direction: column;
+}
+.reviews > .parallex1 {
+	background-image:url(../images/streets.png) ;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.reviews > .parallex1 > .image > .quote {
+	color: white;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.reviews > .parallex1 > .image > .quote > .cite {
+	font-weight: 200;
+	font-style: italic;
+}
+.reviews > .parallex1:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex1 > .image{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.reviews > .parallex2 {
+	background-image:url(../images/bridge.png) ;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.reviews > .parallex2 > .image > .quote {
+	color: black;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.reviews > .parallex2 > .image > .quote > .cite {
+	font-weight: 600;
+	font-style: italic;
+}
+.reviews > .parallex2:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex2 > .image{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.reviews > .parallex2 > image:hover {
+	background-color: gray;
+	opacity: 0.5;
+}
+.reviews > .parallex3 {
+	background-image:url(../images/skyscraper.png) ;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.reviews > .parallex3 > .image > .quote {
+	color: black;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	opacity: 0;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.reviews > .parallex3 > .image > .quote > .cite {
+	font-weight: 600;
+	font-style: italic;
+}
+.reviews > .parallex3:hover > .image > .quote {
+	opacity: 0.9;
+}
+.reviews > .parallex3 > .image{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.reviews > .parallex3 > image:hover {
+	background-color: gray;
+	opacity: 0.5;
+}
+.image {
+	transition: 0.5 all;
+	background-color: rgba(20, 20, 20, 0);	
+}
+ .parallex1:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
+}
+.parallex2:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
+}
+.parallex3:hover > .image {
+	background-color: rgba(20, 20, 20, 0.2);	
+}
+.title > .frontExplore > .linkPage {
+	width: 120px;
+	height: 34px;
+	display: flex;
+	padding-left: 4px;
+	padding-right: 4px;
+	justify-content: center;
+}
+
+.title > .frontExplore > .linkPage {
+	width: 120px;
+	height: 34px;
+	display: flex;
+	padding-left: 4px;
+	padding-right: 4px;
+	justify-content: center;
+}
+* {box-sizing: border-box;}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #CD0000;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #EEE;
+	position: inline;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: black;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #EEE;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #CD0000;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}

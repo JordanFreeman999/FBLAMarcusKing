@@ -1,0 +1,71 @@
+.socials {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	background-color: #222222;
+}
+
+.socials > .links {
+	width: 60%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: rows;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.socials > .links a{
+	width: 150px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	transition: .3s;
+	text-align: center;
+}
+
+.socials > .links a:hover{
+	letter-spacing: 1px;
+	color: #00ffbf;
+}
+.socials > .copyright {
+	font-size: 12px;
+	font-weight: 200;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+.socials > .icons {
+	display: flex;
+	flex-direction: rows;
+	justify-content: space-between;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.socials > .icons > .twitter a {
+	color: white;
+	text-decoration: none;
+}
+.socials > .icons > .instagram a {
+	color: white;
+	text-decoration: none;
+}
+.socials > .icons > .facebook a {
+	color: white;
+	text-decoration: none;
+}
+
+.socials > .icons > .twitter a:hover{
+	color:#4dabf7;
+}
+.socials > .icons > .instagram a:hover{
+	color:#d82989;
+}
+.socials > .icons > .facebook a:hover{
+	color:#3b5998;
+}
+
+div {
+	bottom:0px;
+}
