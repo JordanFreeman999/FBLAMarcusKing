@@ -1,5 +1,6 @@
 ﻿
 .contactExplore {
+	border-radius: 20px;
 	margin-top: 500px;
 	display: flex;
 	justify-content: center;
@@ -17,5 +18,3 @@
 	height: 225px;
 	justify-content: left;
 }
-
-.contactExplore > .instapic a:hover
