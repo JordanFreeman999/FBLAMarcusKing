@@ -70,7 +70,7 @@ body {
 	text-decoration: none;
 	font-family: 'Cairo', sans-serif;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 800;
 	color: black;
 	border-radius: 0px;
 	transition: 0.3s;
@@ -78,7 +78,7 @@ body {
 	padding-right: 4px;
 }
 .title > .frontExplore > .linkPage a:hover {
-	letter-spacing: 1px;
+	letter-spacing: .6px;
 	border-bottom: 4px solid black;
 	border-radius: 5px;
 	font-weight: bold;
